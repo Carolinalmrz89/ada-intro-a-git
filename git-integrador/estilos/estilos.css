@@ -89,8 +89,7 @@ hr{
 }
 
 .ancho25{
-    width: 25%;
-
+    width: 25%; 
 }
 
 .card{
@@ -108,6 +107,11 @@ header{
 .imagen-rex{
     max-width: 25%;
 
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
 }
 
 main{
@@ -148,7 +152,6 @@ footer{
     background-color: #FEFEFE;
     border: 1px solid gray;
     border-radius: 15px;
-    
     height: 340px;
     padding-left: 10px;
 }
