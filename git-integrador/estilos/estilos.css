@@ -88,11 +88,15 @@ hr{
     transition: 0.4s;
 }
 
+.ancho25{
+    width: 25%; 
+}
+
 .card{
     background-color: #FEFEFE;
     border: 1px solid gray;
     border-radius: 15px;
-    width: 40%;
+    
     height: 170px;
     padding-left: 10px;
 }
@@ -103,6 +107,11 @@ header{
 .imagen-rex{
     max-width: 25%;
 
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
 }
 
 main{
@@ -143,7 +152,6 @@ footer{
     background-color: #FEFEFE;
     border: 1px solid gray;
     border-radius: 15px;
-    width: 40%;
     height: 340px;
     padding-left: 10px;
 }
